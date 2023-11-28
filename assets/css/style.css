@@ -1,0 +1,240 @@
+ body {
+    font-family: 'Montserrat', sans-serif;
+    }
+    p{
+      font-size: 18px;
+      font-weight: 500;
+    }
+      .navbar{
+        background-color: #EB1D24;
+        padding: 0;
+      }
+      .navul ul li a{
+/*        color: white;*/
+        color: black;
+        font-weight: 600;
+        border: 2px solid transparent;
+      }
+      .navul ul li a:hover{
+        border: 2px solid black;
+        color: black;
+        font-weight: 600;
+        background-color: red;
+        border-radius: 6px;
+      }
+      .navul ul li{
+         padding: 0px 20px;
+      }
+      .navul ul{
+        float: right;
+      }
+      .navbar-toggler {
+        border: 2px solid black;
+      }
+      .carousel-inner img{
+        height: 90vh;
+      }
+
+/*      ----our misssion----*/
+      .our_mission h2{
+        font-weight: 700;
+      }
+      .our_mission p{
+
+      }
+      .our_mission_img img{
+        border-radius: 14px;
+      }
+      .bottom_line{
+        height: 4px;
+        width: 200px;
+        background-color: red;
+        margin-left: 30px;
+        display: flex;
+      }
+      .head{
+        font-weight: 700;
+      }
+     #bottom_footer{
+       background: #4a5562;
+      color: white;
+      text-align: center;
+     }
+     # Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #4a5562;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #515d6a;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  color: #00932B;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #d9232d;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+/*  color: rgba(255, 255, 255, 0.6);*/
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: white;
+}
+
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+}
+
+#footer .footer-top .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 110px);
+}
+
+#footer .footer-top .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 2px 20px;
+  background: #d9232d;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+.contact_form_box{
+  box-shadow: 0px 0px 30px #ddd;
+  padding: 30px 20px ;
+}
+
+.about_img{
+  height: 300px;
+}
+
+/*-------courses section Start-----*/'
+.dropdown-menu li a{
+  color: Black;
+
+}
+.location a{
+  color: #00932B;
+  list-style: none;
+  text-decoration: none;
+}
+
+.lacation_footer{
+  color: #fff;
+}
+.lacation_footer i{
+  color: #00932B;
+  padding-right: 12px;
+}
+/*-----Infastruction--------*/
+.infa_box{
+  box-shadow: 3px 3px 8px black;
+  padding: 12px;
+  border-radius: 8px;
+
+}
+.infa_box p{
+  font-size: 15px;
+}
+
+
+-----Course-----
+
+#course_top{
+  background-image: url('assets/img/slider/bg1.jpg');
+}
